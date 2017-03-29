@@ -17,7 +17,8 @@ function factorialize(num) {
       num *= i;
     }
   }
+
   return num;
 }
 
-factorialize(5);
+factorialize(10);
