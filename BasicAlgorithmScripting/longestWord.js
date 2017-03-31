@@ -13,4 +13,15 @@ function findLongestWord(str) {
   return myStr[len-1].length;
 }
 
+//方法二：
+//function findLongestWord(str){
+//  var myStr=str.split(' ');
+//  var arrnum=[];
+//  //把每个单词的长度都放进一个数组，然后取最大值
+//  for(i=0 ;i<myStr.length;i++){
+//    arrnum.push(myStr[i].length);
+//  }
+//  return Math.max.apply(null,arrnum);
+//}
+
 findLongestWord("The quick brown fox jumped over the lazy dog");
