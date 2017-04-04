@@ -15,4 +15,5 @@ function chunk(arr, size) {
   return myArr;
 }
 
-chunk(["a", "b", "c", "d"], 2);
+chunk(["a", "b", "c", "d"], 2); // [["a", "b"], ["c", "d"]]
+chunk([0, 1, 2, 3, 4, 5, 6], 3); // [[0, 1, 2], [3, 4, 5], [6]]
