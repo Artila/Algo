@@ -30,3 +30,4 @@ function convert(str) {
 //}
 
 convert("Dolce & Gabbana"); // Dolce &​amp; Gabbana
+convert("Sixty > twelve"); // Sixty &​gt; twelve
