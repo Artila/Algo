@@ -14,7 +14,11 @@ function myReplace(str, before, after) {
     after = after[0].toUpperCase() + after.slice(1);
   }
   str = str.replace(before, after);
+  console.log(str);
   return str;
 }
 
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+// A quick brown fox leaped over the lazy dog
+myReplace("Let us go to the store", "store", "mall");
+// Let us go to the mall
