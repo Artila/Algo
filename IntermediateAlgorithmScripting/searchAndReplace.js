@@ -14,7 +14,7 @@ function myReplace(str, before, after) {
     after = after[0].toUpperCase() + after.slice(1);
   }
   str = str.replace(before, after);
-  console.log(str);
+
   return str;
 }
 
