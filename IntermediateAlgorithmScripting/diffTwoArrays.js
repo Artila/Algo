@@ -45,10 +45,10 @@ function diff(arr1, arr2) {
 
 // 方法二：用 filter 代替 for
 //function diff(arr1, arr2) {
-//  var a1=arr1.filter(function(val){
+//  var a1 = arr1.filter(function(val){
 //    return arr2.indexOf(val)< 0;
 //  });
-//  var a2=arr2.filter(function(val){
+//  var a2 = arr2.filter(function(val){
 //    return arr1.indexOf(val)< 0;
 //  });
 //  return a1.concat(a2);
