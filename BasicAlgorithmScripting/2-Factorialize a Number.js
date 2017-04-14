@@ -21,4 +21,9 @@ function factorialize(num) {
   return num;
 }
 
-factorialize(10);
+factorialize(5); // 120
+factorialize(6); // 720
+factorialize(7); // 5040
+factorialize(8); // 40320
+factorialize(9); // 362880
+factorialize(10);// 3628800
